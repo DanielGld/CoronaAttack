@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gameover_background"
+        android:scaleType="fitXY"></ImageView>
+
+    <com.example.coronaattack.CustomHeadlineTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="65sp"
+        android:text="@string/game_over"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/gameOver_tv">
+
+    </com.example.coronaattack.CustomHeadlineTextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_below="@+id/gameOver_tv"
+        android:text="@string/your_score_is"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/your_score_is">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/your_score_is"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/score_tv">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:id="@+id/centerBottom" />
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/return_to_menu"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/centerBottom"
+        android:background="@drawable/custom_play_btn"
+        android:layout_marginEnd="130dp"
+        android:padding="10dp"
+        android:id="@+id/quit_btn">
+
+    </android.widget.Button>
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/play_again"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/centerBottom"
+        android:layout_marginStart="130dp"
+        android:background="@drawable/custom_play_btn"
+        android:id="@+id/play_again_btn"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="40dp">
+
+    </android.widget.Button>
+
+
+</RelativeLayout>

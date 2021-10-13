@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "990419018686",
+    "project_id": "corona-attack-d8bdd",
+    "storage_bucket": "corona-attack-d8bdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990419018686:android:92f507ff5a24860a7a4fef",
+        "android_client_info": {
+          "package_name": "com.example.coronaattack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990419018686-cglhci565o0fpsugm4d744s4fq1qpl8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2WapX5U8DlMrFJ80TT4qzm5dzfoG6fDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990419018686-cglhci565o0fpsugm4d744s4fq1qpl8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Corona Attack</string>
+    <string name="play_btn">Play</string>
+    <string name="corona_attack_tv">Corona Attack</string>
+    <string name="highest_score_tv">Highest Score:</string>
+    <string name="game_over">Game Over</string>
+    <string name="your_score_is">your score is</string>
+    <string name="return_to_menu">return to menu</string>
+    <string name="play_again">play again</string>
+    <string name="results">Results</string>
+    <string name="emptyNameText">Please enter your name</string>
+    <string name="enterNameMainscreen">Enter your name</string>
+</resources>

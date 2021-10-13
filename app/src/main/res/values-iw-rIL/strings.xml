@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Corona Attack</string>
+    <string name="play_btn">שחק</string>
+    <string name="corona_attack_tv">מתקפת הקורונה</string>
+    <string name="highest_score_tv">שיא:</string>
+    <string name="game_over">משחק נגמר</string>
+    <string name="your_score_is">התוצאה שלך היא</string>
+    <string name="return_to_menu">חזרה למסך ראשי</string>
+    <string name="play_again">שחק שוב</string>
+    <string name="results">תוצאות</string>
+    <string name="emptyNameText">אנא הכנס את שמך</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/game_start_screen"
+        android:id="@+id/background_img" />
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_play_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:paddingHorizontal="20dp"
+        android:layout_alignBottom="@id/background_img"
+        android:text="@string/play_btn"
+        android:textSize="65sp"
+        android:id="@+id/play_btn">
+
+    </android.widget.Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/corona_attack_tv"
+        android:textSize="60sp"
+        android:textColor="@color/black"
+        android:layout_above="@id/play_btn"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/highest_score_tv"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:layout_toStartOf="@+id/highestScore_tv"
+        tools:ignore="RelativeOverlap">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/highestScore_tv">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/mute_img"
+        android:id="@+id/volume_img"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/results"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_play_btn"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/results">
+    </android.widget.Button>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/emptyNameText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:id="@+id/playerName"></EditText>
+
+
+</RelativeLayout>
