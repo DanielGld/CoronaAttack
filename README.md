@@ -11,6 +11,8 @@ In this game you can earn points by shooting the Corona icons. if the Corona ico
 * Using SurfaceView, Paint, Canvas, Bitmap and Rect classes, Runnable interface, Threads and Shared preferences.
 
 
+# screenshots
+
 <img width="644" alt="137290603-d05875f6-cde6-4751-9162-81833eff55bf" src="https://user-images.githubusercontent.com/24552181/137700402-493354bc-9e28-4da5-b51a-641a43466ca3.png">
 
 <img width="644" alt="137290618-5f68bca0-0dd8-40ca-8b3e-1af7c5d446c3" src="https://user-images.githubusercontent.com/24552181/137700412-f757e487-b4fe-4de5-99ef-3951c65d0b69.png">
